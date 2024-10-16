@@ -1,0 +1,25 @@
+:root {
+  --clr-verde-destaque: #81fe88;
+  --clr-verde-pastel: #bfffc3;
+  --clr-verde-petroleo: #132e35;
+  --clr-grafite: #01080e;
+  --clr-cinza-escuro: #171d1f;
+  --clr-cinza: #3e3e3f;
+  --clr-cinza-medio: #888888;
+  --clr-cinza-claro: #bcbcbc;
+  --clr-offwhite: #e1e1e1;
+  --clr-branco: #ffffff;
+
+  --font-family: "Prompt", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-grafite);
+  font-family: var(--font-family);
+}
